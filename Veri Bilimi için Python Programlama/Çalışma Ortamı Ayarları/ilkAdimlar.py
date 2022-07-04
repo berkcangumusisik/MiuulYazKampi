@@ -29,3 +29,24 @@ print(a * c)
 print(a * 10)
 d = a - c
 print(d)
+
+# Virtual Enviroment(Sanal Ortam)
+'''
+* İzole çalışma ortamları oluşturmak için kullanılan araçlardır.
+* Farklı çalışmalar için oluşabilecek kütüphane ve versiyonlar için çalışmaları etkilemeyecek şekilde oluşturma imkanı sunar.
+* conda, pipenv,venv,virtualenv örnek olarak verilebilir
+'''
+
+# Package Management(Paket Yönetimi) Araçları
+'''
+* pip
+* pipenv
+* conda
+'''
+
+# Sanal Ortamlar ve Paket Yönetimi Arasındaki İlişki
+'''
+* venv ve virtualenv paket yönetim aracı olarak pip kullanıyor.
+* conda ve pipenv hem paket hem de sanal ortam yönetiminde kullanılıyor.
+* pip paket yönetimi için kullanılır.
+'''
