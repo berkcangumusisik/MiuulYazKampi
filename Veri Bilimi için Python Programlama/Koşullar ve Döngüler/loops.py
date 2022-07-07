@@ -1,1 +1,0 @@
-# DÖNGÜLER (LOOPS)
