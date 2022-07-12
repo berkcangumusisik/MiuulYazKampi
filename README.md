@@ -8,6 +8,8 @@
 - Bu repo haftalık verilen içeriklere göre videoları izledikçe eklenecektir.
 - Kamp içerikleri  eğer ilginizi çekerse daha çok kişinin görmesi ve faydalanması için :star: vermeyi unutmayın.
 - Konu kapsamı aşağıdaki gibi sıralanabilir.
+- Kamp kapsamında ilk olarak sistemden videoları kendimiz izliyoruz. Sonra Miuul mentörleri ile haftada bir gün görüşme yaparak eksiklikleri gideriyoruz. 
+
 
 #  Veri Bilimi için Python Programlama 
 - Çalışma Ortamı Ayarları
@@ -18,3 +20,5 @@
 - Comprehensions
 - Python ile Veri Analizi: NumPy
 - Python ile Veri Analizi: Pandas
+- Matplotlib Kütüphanesi
+- Seaborn Kütüphanesi

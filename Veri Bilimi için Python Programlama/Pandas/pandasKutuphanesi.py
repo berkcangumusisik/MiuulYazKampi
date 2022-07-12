@@ -184,7 +184,8 @@ for col in a.columns:
 
 for col in a.columns:
     if "age" in col:
-        a[col] = a[col] / 10
+        a[col] = a[col] // 10
+
 print(a.head)
 
 print(a[["age", "age2", "age3"]].apply(lambda x: x / 10).head())
