@@ -9,6 +9,7 @@
 - Kamp içerikleri  eğer ilginizi çekerse daha çok kişinin görmesi ve faydalanması için :star: vermeyi unutmayın.
 - Konu kapsamı aşağıdaki gibi sıralanabilir.
 - Kamp kapsamında ilk olarak sistemden videoları kendimiz izliyoruz. Sonra Miuul mentörleri ile haftada bir gün görüşme yaparak eksiklikleri gideriyoruz. 
+- Bu harika kamp için Vahit Keskin hocama ve tüm Miuul ailesine teşekkür ederim.
 
 
 #  Veri Bilimi için Python Programlama 
