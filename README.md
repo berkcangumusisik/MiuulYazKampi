@@ -9,7 +9,7 @@
 - Kamp içerikleri  eğer ilginizi çekerse daha çok kişinin görmesi ve faydalanması için :star: vermeyi unutmayın.
 - Konu kapsamı aşağıdaki gibi sıralanabilir.
 
-<h1> Veri Bilimi için Python Programlama </h1>
+#  Veri Bilimi için Python Programlama 
 - Çalışma Ortamı Ayarları
 - Veri Yapıları
 - Fonksiyonlar
