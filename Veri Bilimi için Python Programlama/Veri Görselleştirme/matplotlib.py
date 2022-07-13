@@ -6,7 +6,7 @@
 * Sayısal değişken ise kutu grafiği ya da histogram kullanılır.
 '''
 import pandas as pd
-import seabornLibrary as sns
+import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 

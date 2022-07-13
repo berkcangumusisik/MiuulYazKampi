@@ -23,3 +23,4 @@
 - Python ile Veri Analizi: Pandas
 - Matplotlib Kütüphanesi
 - Seaborn Kütüphanesi
+- Gelişmiş Fonksiyonel Keşifçi Veri Analizi
