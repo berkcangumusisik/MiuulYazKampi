@@ -12,7 +12,7 @@
 - Bu harika kamp için Vahit Keskin hocama ve tüm Miuul ailesine teşekkür ederim.
 
 
-#  Veri Bilimi için Python Programlama 
+#  1. Bölüm Veri Bilimi için Python Programlama 
 - Çalışma Ortamı Ayarları
 - Veri Yapıları
 - Fonksiyonlar
@@ -24,3 +24,7 @@
 - Matplotlib Kütüphanesi
 - Seaborn Kütüphanesi
 - Gelişmiş Fonksiyonel Keşifçi Veri Analizi
+<br>
+
+
+![image](https://user-images.githubusercontent.com/75336900/178726694-3bcde966-2b66-4c9b-bfef-95c9a1705468.png)
