@@ -8,6 +8,7 @@ import numpy as np
 
 df = pd.read_csv("datasets/advertising.csv")
 df = sns.load_dataset("titanic")
+print(df.shape)
 print(df.head())
 print("--------- Görev 2 -------------")
 """
@@ -32,7 +33,7 @@ print("--------- Görev 5 -------------")
 """ 
 Görev 5: pclass ve parch değişkenlerinin unique değerlerinin sayısını bulunuz
 """
-print(df[["pclass", "parch"]].value_counts())
+print(df[["pclass", "parch"]].nunique())
 
 print("--------- Görev 6 -------------")
 """
@@ -59,13 +60,13 @@ print("--------- Görev 9 -------------")
 """
 Görev 9: Yaşı 30 dan küçük ve kadın olan yolcuların tüm bilgilerini gösteriniz.
 """
-print(df.query('(age < 30) & (sex == "female")'))
+print(df[(df["age"] < 30) & (df["sex"] == "female")])
 
 print("--------- Görev 10 -------------")
 """
 Görev 10: Fare'i 500'den büyük veya yaşı 70’den büyük yolcuların bilgilerini gösteriniz
 """
-print(df.query('(fare > 500) | (age > 70)'))
+print(df[(df["fare"] > 500) | (df["age"] > 70)])
 
 print("--------- Görev 11 -------------")
 """
@@ -104,9 +105,20 @@ print("--------- Görev 16 -------------")
 Görev 16 : 30 yaşın altında olanlar 1, 30'a eşit ve üstünde olanlara 0 verecek bir fonksiyon yazın. Yazdığınız fonksiyonu kullanarak titanik veri setinde age_flag adında bir değişken oluşturunuz oluşturunuz. (apply ve lambda yapılarını kullanınız)
 """
 
-age_flag = df["age"].apply(lambda x: 1 if x < 30 else 0)
-df["age_flag"] = age_flag
+df["age_flag"] = df["age"].apply(lambda x: 1 if x < 30 else 0)
 print(df.head())
+
+
+# 2. yol
+
+def age30(age):
+    if age < 30:
+        return 1
+    else:
+        return 0
+
+
+df["age_flag2"] = df["age"].apply(lambda x: age30(x))
 
 print("--------- Görev 17 -------------")
 """
@@ -132,7 +144,7 @@ print("--------- Görev 20 -------------")
 Görev 20: Lunch zamanına ve kadın müşterilere ait total_bill ve tip değerlerinin day'e göre sum, min, max ve mean değerlerini bulunuz.
 """
 print(df[["total_bill", "tip", "day"]].loc[(df["time"] == "Lunch") & (df["sex"] == "Female")].groupby("day"). \
-      agg({"total_bill": ["sum", "min", "max", "mean"], "tip": ["sum", "min", "max", "mean"]}))
+agg({"total_bill": ["sum", "min", "max", "mean"], "tip": ["sum", "min", "max", "mean"]}))
 
 print("--------- Görev 21 -------------")
 """
@@ -182,6 +194,5 @@ print("--------- Görev 25 -------------")
 """
 Veriyi total_bill_tip_sum değişkenine göre büyükten küçüğe sıralayınız ve ilk 30 kişiyi yeni bir dataframe'e atayınız.
 """
-df.sort_values("total_bill_tip_sum", ascending=False)
-df_new = df.sort_values("total_bill_tip_sum", ascending=False)[:30]
-print(df_new)
+df = df.sort_values("total_bill_tip_sum", ascending=False)
+print(df.head(30))
