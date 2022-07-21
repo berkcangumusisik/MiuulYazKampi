@@ -28,3 +28,9 @@
 
 
 ![image](https://user-images.githubusercontent.com/75336900/178726694-3bcde966-2b66-4c9b-bfef-95c9a1705468.png)
+
+
+#  2. Bölüm Özellik Mühendisliği
+- Özellik Mühendisliği Nedir?
+- Aykırı Değer Analizi(Outliers)
+- Eksik Veri Analizi(Missing Values)
