@@ -40,4 +40,13 @@
   - Rare Encoding
   - Özellik Ölçeklendirme (Feature Scaling)
 - Feature Extraction(Özellik Çıkarımı)
-  
+  - Binary Features
+  - Text Features
+  - Date Features
+  - Feature Interactions
+- Uygulama
+- Bitirme Projesi 1
+- Bitirme Projesi 2
+
+
+
