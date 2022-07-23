@@ -48,5 +48,4 @@
 - Bitirme Projesi 1
 - Bitirme Projesi 2
 
-
-
+![image](https://user-images.githubusercontent.com/75336900/180593670-22d55d09-8779-4353-9d0a-c36723ce694e.png)
