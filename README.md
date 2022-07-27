@@ -49,3 +49,22 @@
 - Bitirme Projesi 2
 
 ![image](https://user-images.githubusercontent.com/75336900/180593670-22d55d09-8779-4353-9d0a-c36723ce694e.png)
+
+
+# 3. Bölüm Makine Öğrenmesi
+- Makine Öğrenmesi Nedir?
+- Değişken Türleri
+  - Sayısal Değişkenler
+  - Kategorik Değişken
+  - Bağımsız Değişken
+  - Bağımlı Değişken
+- Öğrenme Türleri
+  - Denetimli Öğrenme
+  - Denetimsiz Öğrenme
+  - Pekiştirmeli Öğrenme
+- Problem Türleri
+- Model Başarısı Değerlendirme Yöntemleri
+- Model Doğrulama Yöntemleri
+  - Sınama Seti Yöntemi
+  - K-Katlı Çapraz Doğrulama 
+- Yanlılık Varyans Değiş Tokuşu
