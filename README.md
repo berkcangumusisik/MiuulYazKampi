@@ -68,6 +68,6 @@
   - Sınama Seti Yöntemi
   - K-Katlı Çapraz Doğrulama 
 - Yanlılık Varyans Değiş Tokuşu
-- Linear Regresyon
+- Doğrusal Regresyon
 - Lojistik Regresyon
 - Proje 1
