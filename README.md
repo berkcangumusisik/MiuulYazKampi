@@ -71,3 +71,4 @@
 - Doğrusal Regresyon
 - Lojistik Regresyon
 - Proje 1
+- KNN
