@@ -72,3 +72,10 @@
 - Lojistik Regresyon
 - Proje 1
 - KNN
+- CART (Classification And Regression Trees)
+- Random Forest
+- Gradient Boosting Machines
+- XGBoost (Extreme Gradient Boosting)
+- LightGBM (Light Gradient Boosting)
+- CatBoost 
+- Dengesiz Veri Setleri
