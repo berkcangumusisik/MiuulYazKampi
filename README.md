@@ -86,3 +86,5 @@
   - Hiyerarşik Kümeleme Analizi
   - Temel Bileşen Analizi
 - Pipeline
+
+![image](https://user-images.githubusercontent.com/75336900/183651012-0db22bfb-c32b-4789-b727-ec32e39bb376.png)
