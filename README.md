@@ -79,3 +79,10 @@
 - LightGBM (Light Gradient Boosting)
 - CatBoost 
 - Dengesiz Veri Setleri
+- Ev Fiyat Tahmin Modeli Oluşturma
+- Müşteri Terk Tahmin Modeli Oluşturma
+- Denetimsiz Öğrenme
+  - K - Means
+  - Hiyerarşik Kümeleme Analizi
+  - Temel Bileşen Analizi
+- Pipeline
